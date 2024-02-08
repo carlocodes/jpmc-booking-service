@@ -1,0 +1,22 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api/v1
+
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:booking
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create
+
+booking:
+  max-rows: 26
+  max-seats-per-row: 10

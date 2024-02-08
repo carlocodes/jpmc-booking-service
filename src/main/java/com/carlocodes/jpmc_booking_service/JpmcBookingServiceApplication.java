@@ -1,4 +1,4 @@
-package com.carlocodes.jpmcbookingservice;
+package com.carlocodes.jpmc_booking_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
