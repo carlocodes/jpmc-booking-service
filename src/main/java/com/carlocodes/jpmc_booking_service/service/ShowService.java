@@ -1,6 +1,6 @@
 package com.carlocodes.jpmc_booking_service.service;
 
-import com.carlocodes.jpmc_booking_service.ShowMapper.ShowMapper;
+import com.carlocodes.jpmc_booking_service.mapper.ShowMapper;
 import com.carlocodes.jpmc_booking_service.dto.ShowDto;
 import com.carlocodes.jpmc_booking_service.entity.Show;
 import com.carlocodes.jpmc_booking_service.repository.ShowRepository;

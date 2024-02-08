@@ -1,4 +1,4 @@
-package com.carlocodes.jpmc_booking_service.ShowMapper;
+package com.carlocodes.jpmc_booking_service.mapper;
 
 import com.carlocodes.jpmc_booking_service.dto.ShowDto;
 import com.carlocodes.jpmc_booking_service.entity.Show;
